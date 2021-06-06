@@ -1,0 +1,13 @@
+1.Default config file is  nginx.conf
+2. It is recommended to create separate virtual servers
+for different applications.
+3. A virtual server is defined by a server directive.
+4. we can define virtual servers in separate .conf files, which
+  should be present in /etc/nginx/conf.d
+5. I am adding my nginx config files in configurations directory.
+6. localhost.com.conf is conf file for one virtual server.
+   It should be placed under conf.d folder.
+7. Inside localhost.com.conf server_name is host1.example.com.
+   In order to resolve this domain i have added it in /etc/hosts
+   file. I have pasted its copy in configurations folder.
+8. In hosts file 192.168.58.1 is my ip address.

@@ -1,0 +1,17 @@
+# Start Nginx server
+sudo systemctl start nginx
+
+# Stop Nginx server:
+sudo systemctl stop nginx
+
+# Restart Nginx server:
+sudo systemctl restart nginx
+
+# Reload changes:
+sudo nginx -s reload
+
+# By default nginx start automatically when system boots to disable this:
+sudo systemctl disable nginx
+
+# make sure no syntax error in any ngonx config files:
+sudo nginx -t
